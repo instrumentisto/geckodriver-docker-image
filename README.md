@@ -1,7 +1,7 @@
 Geckodriver Docker image
 ===============================
 
-[![GitHub release](https://img.shields.io/github/release/instrumentisto/geckodriver-docker-image.svg)](https://hub.docker.com/r/instrumentisto/geckodriver/tags) [![Build Status](https://travis-ci.org/instrumentisto/geckodriver-docker-image.svg?branch=master)](https://travis-ci.org/instrumentisto/geckodriver-docker-image) [![Docker Pulls](https://img.shields.io/docker/pulls/instrumentisto/coturn.svg)](https://hub.docker.com/r/instrumentisto/coturn)
+[![GitHub release](https://img.shields.io/github/release/instrumentisto/geckodriver-docker-image.svg)](https://hub.docker.com/r/instrumentisto/geckodriver/tags) [![Build Status](https://travis-ci.org/instrumentisto/geckodriver-docker-image.svg?branch=master)](https://travis-ci.org/instrumentisto/geckodriver-docker-image) [![Docker Pulls](https://img.shields.io/docker/pulls/instrumentisto/geckodriver.svg)](https://hub.docker.com/r/instrumentisto/geckodriver)
 
 
 
