@@ -16,7 +16,14 @@ RUN apt-get update \
     && wget https://github.com/mozilla/geckodriver/releases/download/v${geckodriver_ver}/geckodriver-v${geckodriver_ver}-linux64.tar.gz \
     && tar -xvzf geckodriver* \
     && chmod +x geckodriver \
-    && mv geckodriver /usr/bin
+    && mv geckodriver /usr/bin \
+    # Provide MPLv2.0 license
+    && mkdir -p /usr/share/doc/mpl \
+    && wget -O /usr/share/doc/mpl/MPLv2.0.html https://www.mozilla.org/en-US/MPL/2.0/ \
+    # Cleanup unnecessary stuff
+    && apt-get purge -y --auto-remove \
+        -o APT::AutoRemove::RecommendsImportant=false \
+    && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["geckodriver", "-b", "/opt/firefox/firefox", "--log", "debug", "--host", "0.0.0.0"]
 
