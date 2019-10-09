@@ -8,6 +8,7 @@ services:
 before_script:
   - make image tag=test
   - make deps.bats
+  - docker pull php:alpine
 
 script:
   - make test tag=test
