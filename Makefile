@@ -11,42 +11,57 @@
 #	make release
 
 
-IMAGE_NAME := instrumentisto/geckodriver
-VERSION ?= 69.0
-FIREFOX_VERSION ?= 69.0
-GECKODRIVER_VERSION ?= 0.25.0
-TAGS ?= 69.0,latest
-
-
 comma := ,
 eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
                                 $(findstring $(2),$(1))),1)
+
+FIREFOX_VER ?= 69.0
+GECKODRIVER_VER ?= 0.25.0
+
+IMAGE_NAME := instrumentisto/geckodriver
+TAGS ?= $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian-buster \
+        $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian \
+        $(FIREFOX_VER)-driver$(GECKODRIVER_VER) \
+        $(FIREFOX_VER)-debian-buster \
+        $(FIREFOX_VER)-debian \
+        $(FIREFOX_VER) \
+        debian-buster \
+        debian \
+        latest
+VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 
 
 
 # Build Docker image.
 #
 # Usage:
-#	make image [VERSION=<image-version>] [no-cache=(no|yes)]
+#	make image [tag=($(VERSION)|<docker-tag>)] [no-cache=(no|yes)]
+#	           [FIREFOX_VER=<firefox-version>]
+#	           [GECKODRIVER_VER=<geckodriver-version>]
+
+image-tag = $(if $(call eq,$(tag),),$(VERSION),$(tag))
 
 image:
 	docker build --network=host --force-rm \
-		--build-arg firefox_ver=$(FIREFOX_VERSION) \
-		--build-arg geckodriver_ver=$(GECKODRIVER_VERSION) \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
-		-t $(IMAGE_NAME):$(VERSION) .
+		--build-arg firefox_ver=$(FIREFOX_VER) \
+		--build-arg geckodriver_ver=$(GECKODRIVER_VER) \
+		-t $(IMAGE_NAME):$(image-tag) .
 
 
 
 # Tag Docker image with given tags.
 #
 # Usage:
-#	make tags [VERSION=<image-version>]
-#	          [TAGS=<docker-tag-1>[,<docker-tag-2>...]]
+#	make tags [for=($(VERSION)|<docker-tag>)]
+#	          [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+
+tags-for = $(if $(call eq,$(for),),$(VERSION),$(for))
+tags-tags = $(if $(call eq,$(tags),),$(TAGS),$(tags))
 
 tags:
-	$(foreach tag, $(subst $(comma), ,$(TAGS)),\
-		$(call docker.tag.do,$(VERSION),$(tag)))
+	$(foreach tag, $(subst $(comma), ,$(tags-tags)),\
+		$(call tags.do,$(tags-for),$(tag)))
 define tags.do
 	$(eval from := $(strip $(1)))
 	$(eval to := $(strip $(2)))
@@ -58,11 +73,13 @@ endef
 # Manually push Docker images to Docker Hub.
 #
 # Usage:
-#	make push [TAGS=<docker-tag-1>[,<docker-tag-2>...]]
+#	make push [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+
+push-tags = $(if $(call eq,$(tags),),$(TAGS),$(tags))
 
 push:
-	$(foreach tag, $(subst $(comma), ,$(TAGS)),\
-		$(call docker.push.do, $(tag)))
+	$(foreach tag, $(subst $(comma), ,$(push-tags)),\
+		$(call push.do, $(tag)))
 define push.do
 	$(eval tag := $(strip $(1)))
 	docker push $(IMAGE_NAME):$(tag)
@@ -73,10 +90,17 @@ endef
 # Make manual release of Docker images to Docker Hub.
 #
 # Usage:
-#	make release [VERSION=<image-version>] [no-cache=(no|yes)]
-#	             [TAGS=<docker-tag-1>[,<docker-tag-2>...]]
+#	make release [tag=($(VERSION)|<docker-tag>)] [no-cache=(no|yes)]
+#	             [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+#	             [FIREFOX_VER=<firefox-version>]
+#	             [GECKODRIVER_VER=<geckodriver-version>]
 
-release: | image tags push
+release:
+	@make image tag=$(tag) no-cache=$(no-cache) \
+	            FIREFOX_VER=$(FIREFOX_VER) \
+	            GECKODRIVER_VER=$(GECKODRIVER_VER)
+	@make tags for=$(tag) tags=$(tags)
+	@make push tags=$(tags)
 
 
 
@@ -89,14 +113,17 @@ release: | image tags push
 # http://windsock.io/automated-docker-image-builds-with-multiple-tags
 #
 # Usage:
-#	make post-push-hook [TAGS=<docker-tag-1>[,<docker-tag-2>...]]
+#	make post-push-hook [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+#	                    [out=(hooks/post_push|<file-path>)]
+
+post-push-hook-tags = $(if $(call eq,$(tags),),$(TAGS),$(tags))
 
 post-push-hook:
 	@mkdir -p hooks/
 	docker run --rm -i -v "$(PWD)/post_push.tmpl.php":/post_push.php:ro \
 		php:alpine php -f /post_push.php -- \
-			--image_tags='$(TAGS)' \
-		> hooks/post_push
+			--image_tags='$(post-push-hook-tags)' \
+		> $(if $(call eq,$(out),),hooks/post_push,$(out))
 
 
 
@@ -106,13 +133,16 @@ post-push-hook:
 #	https://github.com/bats-core/bats-core
 #
 # Usage:
-#	make test [VERSION=<image-version>]
+#	make test [tag=($(VERSION)|<docker-tag>)]
+
+test-tag = $(if $(call eq,$(tag),),$(VERSION),$(tag))
 
 test:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make deps.bats
 endif
-	IMAGE=$(IMAGE_NAME):$(VERSION) node_modules/.bin/bats test/suite.bats
+	IMAGE=$(IMAGE_NAME):$(test-tag) \
+	node_modules/.bin/bats test/suite.bats
 
 
 
@@ -122,7 +152,7 @@ endif
 #	make deps.bats
 
 deps.bats:
-	docker run --rm -v "$(PWD)":/app -w /app \
+	docker run --rm --network=host -v "$(PWD)":/app -w /app \
 		node:alpine \
 			yarn install --non-interactive --no-progress
 
