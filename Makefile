@@ -16,7 +16,7 @@ eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
                                 $(findstring $(2),$(1))),1)
 
 FIREFOX_VER ?= 69.0
-GECKODRIVER_VER ?= 0.25.0
+GECKODRIVER_VER ?= 0.26.0
 
 IMAGE_NAME := instrumentisto/geckodriver
 TAGS ?= $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian-buster \
