@@ -47,9 +47,13 @@ Consider to increase shared memory size (`--shm-size 2g` option), otherwise you 
 
 ## License
 
-[Firefox] and [geckodriver] are licensed under [Mozilla Public License].
+[Firefox] and [geckodriver] are licensed under [Mozilla Public License 2.0].
 
-[geckodriver] Docker image is licensed under [MIT license][2].
+As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
+
+As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
+
+The [sources][3] for producing `instrumentisto/geckodriver` Docker image are licensed under [Blue Oak Model License 1.0.0][2].
 
 
 
@@ -66,9 +70,10 @@ If you have any problems with or questions about this image, please contact us t
 
 [Firefox]: https://www.mozilla.org/firefox
 [geckodriver]: https://github.com/mozilla/geckodriver
-[Mozilla Public License]: https://www.mozilla.org/en-US/MPL/2.0
+[Mozilla Public License 2.0]: https://www.mozilla.org/en-US/MPL/2.0
 
 [1]: https://github.com/instrumentisto/geckodriver-docker-image/issues
 [2]: https://github.com/instrumentisto/geckodriver-docker-image/blob/master/LICENSE.md
+[3]: https://github.com/instrumentisto/geckodriver-docker-image
 
 [101]: https://github.com/instrumentisto/geckodriver-docker-image/blob/master/Dockerfile
