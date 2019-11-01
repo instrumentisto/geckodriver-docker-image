@@ -2,9 +2,9 @@
 
 
 @test "post_push hook is up-to-date" {
-   run sh -c "make post-push-hook out=/dev/stdout | grep 'for tag in' \
-                                                  | cut -d '{' -f 2 \
-                                                  | cut -d '}' -f 1"
+  run sh -c "make post-push-hook out=/dev/stdout | grep 'for tag in' \
+                                                 | cut -d '{' -f 2 \
+                                                 | cut -d '}' -f 1"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
   expected="$output"
