@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:buster-slim
 
-ARG firefox_ver=70.0
+ARG firefox_ver=71.0
 ARG geckodriver_ver=0.26.0
 
 RUN apt-get update \
@@ -46,6 +46,3 @@ EXPOSE 4444
 ENTRYPOINT ["geckodriver"]
 
 CMD ["--binary=/opt/firefox/firefox", "--log=debug", "--host=0.0.0.0"]
-
-
-

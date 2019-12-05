@@ -15,8 +15,10 @@ comma := ,
 eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
                                 $(findstring $(2),$(1))),1)
 
-FIREFOX_VER ?= 70.0
-GECKODRIVER_VER ?= 0.26.0
+FIREFOX_VER ?= $(strip \
+	$(shell grep 'ARG firefox_ver=' Dockerfile | cut -d '=' -f2))
+GECKODRIVER_VER ?= $(strip \
+	$(shell grep 'ARG geckodriver_ver=' Dockerfile | cut -d '=' -f2))
 
 IMAGE_NAME := instrumentisto/geckodriver
 TAGS ?= $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian-buster \

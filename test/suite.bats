@@ -31,7 +31,7 @@
 }
 
 @test "Firefox has correct version" {
-  run sh -c "cat Makefile | grep 'FIREFOX_VER ?= ' | cut -d ' ' -f 3"
+  run sh -c "grep 'ARG firefox_ver=' Dockerfile | cut -d '=' -f2"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
   expected="$output"
@@ -57,7 +57,7 @@
 }
 
 @test "geckodriver has correct version" {
-  run sh -c "cat Makefile | grep 'GECKODRIVER_VER ?= ' | cut -d ' ' -f 3"
+  run sh -c "grep 'ARG geckodriver_ver=' Dockerfile | cut -d '=' -f2"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
   expected="$output"
