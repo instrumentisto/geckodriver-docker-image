@@ -9,7 +9,7 @@ tagStart=$(expr index "$IMAGE_NAME" :)
 repoName=${IMAGE_NAME:0:tagStart-1}
 
 # Tag and push image for each additional tag
-for tag in {77.0.1-driver0.26.0-debian-buster,77.0.1-driver0.26.0-debian,77.0.1-driver0.26.0,77.0.1-debian-buster,77.0.1-debian,77.0.1,debian-buster,debian,latest}; do
+for tag in {78.0-driver0.26.0-debian-buster,78.0-driver0.26.0-debian,78.0-driver0.26.0,78.0-debian-buster,78.0-debian,78.0,debian-buster,debian,latest}; do
   docker tag $IMAGE_NAME ${repoName}:${tag}
   docker push ${repoName}:${tag}
 done
