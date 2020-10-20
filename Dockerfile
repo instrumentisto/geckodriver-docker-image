@@ -20,6 +20,8 @@ RUN apt-get update \
  # Install dependencies for Firefox
  && apt-get install -y --no-install-recommends --no-install-suggests \
             `apt-cache depends firefox-esr | awk '/Depends:/{print$2}'` \
+            # additional 'firefox-esl' dependencies which is not in 'depends' list
+            libxt6 \
     \
  # Download and install Firefox
  && curl -fL -o /tmp/firefox.tar.bz2 \
