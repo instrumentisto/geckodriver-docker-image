@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:buster-slim
 
-ARG firefox_ver=82.0
+ARG firefox_ver=82.0.2
 ARG geckodriver_ver=0.27.0
 
 RUN apt-get update \
