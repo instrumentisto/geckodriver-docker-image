@@ -8,7 +8,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`84.0.1-driver0.28.0-debian-buster`, `84.0.1-driver0.28.0-debian`, `84.0.1-driver0.28.0`, `84.0.1-debian-buster`, `84.0.1-debian`, `84.0.1`, `debian-buster`, `debian`, `latest`][101]
+- [`84.0.2-driver0.28.0-debian-buster`, `84.0.2-driver0.28.0-debian`, `84.0.2-driver0.28.0`, `84.0.2-debian-buster`, `84.0.2-debian`, `84.0.2`, `debian-buster`, `debian`, `latest`][101]
 
 
 
