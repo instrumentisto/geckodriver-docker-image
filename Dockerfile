@@ -2,7 +2,7 @@
 FROM debian:buster-slim
 
 ARG firefox_ver=84.0.2
-ARG geckodriver_ver=0.28.0
+ARG geckodriver_ver=0.29.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
