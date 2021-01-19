@@ -43,6 +43,11 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
            /tmp/*
 
+# As this image cannot run in non-headless mode anyway, it's better to forcibly
+# enable it, regardless whether WebDriver client requests it in capabilities or
+# not.
+ENV MOZ_HEADLESS=1
+
 EXPOSE 4444
 
 ENTRYPOINT ["geckodriver"]
