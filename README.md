@@ -42,18 +42,6 @@ Consider using `--network=host` option for running image if you want to run test
 
 Consider to increase shared memory size (`--shm-size 2g` option), otherwise you may experience unexpected [Firefox] crashes.
 
-In case browser is not starting and crashing with similar error:
-
-```bash
-Error: no DISPLAY environment variable specified
-1610980807629   webdriver::server       DEBUG   <- 500 Internal Server Error {"value":{"error":"unknown error","message":"Process unexpectedly closed with status 1","stacktrace":""}}
-```
-
-Try setting `MOZ_HEADLESS` environment variable to `1`
-
-```bash
-docker run -d -p 4444:4444 -e MOZ_HEADLESS=1 instrumentisto/geckodriver
-```
 
 
 
