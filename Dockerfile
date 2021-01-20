@@ -3,6 +3,11 @@ FROM debian:buster-slim
 
 ARG firefox_ver=84.0.2
 ARG geckodriver_ver=0.29.0
+ARG build_rev=0
+
+LABEL org.opencontainers.image.source="\
+    https://github.com/instrumentisto/geckodriver-docker-image"
+
 
 RUN apt-get update \
  && apt-get upgrade -y \
@@ -42,6 +47,7 @@ RUN apt-get update \
             $toolDeps \
  && rm -rf /var/lib/apt/lists/* \
            /tmp/*
+
 
 # As this image cannot run in non-headless mode anyway, it's better to forcibly
 # enable it, regardless whether WebDriver client requests it in capabilities or

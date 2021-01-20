@@ -1,14 +1,22 @@
 geckodriver Docker image
 ========================
 
-[![Build Status](https://travis-ci.org/instrumentisto/geckodriver-docker-image.svg?branch=master)](https://travis-ci.org/instrumentisto/geckodriver-docker-image) [![Docker Pulls](https://img.shields.io/docker/pulls/instrumentisto/geckodriver.svg)](https://hub.docker.com/r/instrumentisto/geckodriver)
+[![Release](https://img.shields.io/github/v/release/instrumentisto/geckodriver-docker-image "Release")](https://github.com/instrumentisto/geckodriver-docker-image/releases)
+[![CI](https://github.com/instrumentisto/geckodriver-docker-image/workflows/CI/badge.svg?branch=master "CI")](https://github.com/instrumentisto/geckodriver-docker-image/actions?query=workflow%3ACI+branch%3Amaster)
+[![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/geckodriver?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/geckodriver)
+
+[Docker Hub](https://hub.docker.com/r/instrumentisto/geckodriver)
+| [GitHub Container Registry](https://github.com/orgs/instrumentisto/packages/container/package/geckodriver)
+| [Quay.io](https://quay.io/repository/instrumentisto/geckodriver)
+
+[Changelog](https://github.com/instrumentisto/geckodriver-docker-image/blob/master/CHANGELOG.md)
 
 
 
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`84.0.2-driver0.29.0-debian-buster`, `84.0.2-driver0.29.0-debian`, `84.0.2-driver0.29.0`, `84.0.2-debian-buster`, `84.0.2-debian`, `84.0.2`, `debian-buster`, `debian`, `latest`][101]
+- [`84.0.2-driver0.29.0-r0-debian-buster`, `84.0.2-driver0.29.0-r0-debian`, `84.0.2-driver0.29.0-r0`, `84.0.2-driver0.29.0-debian-buster`, `84.0.2-driver0.29.0-debian`, `84.0.2-driver0.29.0`, `84.0.2-debian-buster`, `84.0.2-debian`, `84.0.2`, `debian-buster`, `debian`, `latest`][101]
 
 
 
@@ -60,7 +68,7 @@ The [sources][3] for producing `instrumentisto/geckodriver` Docker image are lic
 
 ## Issues
 
-We can't notice comments in the DockerHub so don't use them for reporting issue or asking question.
+We can't notice comments in the [DockerHub] (or other container registries) so don't use them for reporting issue or asking question.
 
 If you have any problems with or questions about this image, please contact us through a [GitHub issue][1].
 
@@ -68,6 +76,7 @@ If you have any problems with or questions about this image, please contact us t
 
 
 
+[DockerHub]: https://hub.docker.com
 [Firefox]: https://www.mozilla.org/firefox
 [geckodriver]: https://github.com/mozilla/geckodriver
 [Mozilla Public License 2.0]: https://www.mozilla.org/en-US/MPL/2.0
