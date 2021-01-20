@@ -17,11 +17,11 @@
   [ ! "$output" = '' ]
   expected="$output"
 
-  run docker run --rm --entrypoint sh $IMAGE -c \
-    "/opt/firefox/firefox -v | cut -d ' ' -f3"
+  run docker run --rm -e MOZ_HEADLESS=0 --entrypoint sh $IMAGE -c \
+    "/opt/firefox/firefox -v"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
-  actual="$output"
+  actual=$(printf "$output" | grep -m 1 'Mozilla Firefox' | cut -d ' ' -f3)
 
   [ "$actual" = "$expected" ]
 }
