@@ -146,7 +146,7 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=instrumentisto/$(NAME):$(tag) \
+	IMAGE=instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
 		tests/main.bats
@@ -166,7 +166,7 @@ endif
 npm.install:
 ifeq ($(dockerized),yes)
 	docker run --rm --network=host -v "$(PWD)":/app/ -w /app/ \
-		node:$(NODE_VER) \
+		node \
 			make npm.install dockerized=no
 else
 	npm install
