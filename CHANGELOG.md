@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [86.0.1-driver0.29.0-r0] · 2021-03-12
+[86.0.1-driver0.29.0-r0]: /../../tree/86.0.1-driver0.29.0-r0
+
+[Diff](/../../compare/86.0-driver0.29.0-r0...86.0.1-driver0.29.0-r0)
+
+### Upgraded
+
+- Firefox 86.0.1: <https://www.mozilla.org/firefox/86.0.1/releasenotes>
+
+
+
+
 ## [86.0-driver0.29.0-r0] · 2021-02-24
 [86.0-driver0.29.0-r0]: /../../tree/86.0-driver0.29.0-r0
 
