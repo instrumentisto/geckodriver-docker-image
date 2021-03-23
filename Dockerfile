@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:buster-slim
 
-ARG firefox_ver=86.0.1
+ARG firefox_ver=87.0
 ARG geckodriver_ver=0.29.0
 ARG build_rev=0
 
