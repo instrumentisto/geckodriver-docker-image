@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [87.0-driver0.29.1-r0] · 2021-04-10
+[87.0-driver0.29.1-r0]: /../../tree/87.0-driver0.29.1-r0
+
+[Diff](/../../compare/87.0-driver0.29.0-r0...87.0-driver0.29.1-r0)
+
+### Upgraded
+
+- geckodriver 0.29.1: <https://github.com/mozilla/geckodriver/releases/tag/v0.29.1>
+
+
+
+
 ## [87.0-driver0.29.0-r0] · 2021-03-23
 [87.0-driver0.29.0-r0]: /../../tree/87.0-driver0.29.0-r0
 

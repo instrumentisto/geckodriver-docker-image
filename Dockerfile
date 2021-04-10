@@ -2,7 +2,7 @@
 FROM debian:buster-slim
 
 ARG firefox_ver=87.0
-ARG geckodriver_ver=0.29.0
+ARG geckodriver_ver=0.29.1
 ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
