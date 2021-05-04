@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [88.0-driver0.29.1-r0] · 2021-05-04
+[88.0-driver0.29.1-r0]: /../../tree/88.0-driver0.29.1-r0
+
+[Diff](/../../compare/87.0-driver0.29.1-r0...88.0-driver0.29.1-r0)
+
+### Upgraded
+
+- Firefox 88.0: <https://www.mozilla.org/firefox/88.0/releasenotes>
+
+
+
+
 ## [87.0-driver0.29.1-r0] · 2021-04-10
 [87.0-driver0.29.1-r0]: /../../tree/87.0-driver0.29.1-r0
 
