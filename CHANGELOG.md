@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [91.0-driver0.29.1-r1] · 2021-08-17
+[91.0-driver0.29.1-r1]: /../../tree/91.0-driver0.29.1-r1
+
+[Diff](/../../compare/91.0-driver0.29.1-r0...91.0-driver0.29.1-r1)
+
+### Upgraded
+
+- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+
+
+
+
 ## [91.0-driver0.29.1-r0] · 2021-08-17
 [91.0-driver0.29.1-r0]: /../../tree/91.0-driver0.29.1-r0
 
@@ -13,7 +25,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 91.0: <https://www.mozilla.org/firefox/91.0/releasenotes>
+- [Firefox] 91.0: <https://www.mozilla.org/firefox/91.0/releasenotes>
 
 
 
@@ -25,7 +37,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 90.0.2: <https://www.mozilla.org/firefox/90.0.2/releasenotes>
+- [Firefox] 90.0.2: <https://www.mozilla.org/firefox/90.0.2/releasenotes>
 
 
 
@@ -37,7 +49,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 90.0.1: <https://www.mozilla.org/firefox/90.0/releasenotes>, <https://www.mozilla.org/firefox/90.0.1/releasenotes>
+- [Firefox] 90.0.1: <https://www.mozilla.org/firefox/90.0/releasenotes>, <https://www.mozilla.org/firefox/90.0.1/releasenotes>
 
 
 
@@ -49,7 +61,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 89.0.2: <https://www.mozilla.org/firefox/89.0.2/releasenotes>
+- [Firefox] 89.0.2: <https://www.mozilla.org/firefox/89.0.2/releasenotes>
 
 
 
@@ -61,7 +73,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 89.0.1: <https://www.mozilla.org/firefox/89.0.1/releasenotes>
+- [Firefox] 89.0.1: <https://www.mozilla.org/firefox/89.0.1/releasenotes>
 
 
 
@@ -73,7 +85,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 89.0: <https://www.mozilla.org/firefox/89.0/releasenotes>
+- [Firefox] 89.0: <https://www.mozilla.org/firefox/89.0/releasenotes>
 
 
 
@@ -85,7 +97,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 88.0.1: <https://www.mozilla.org/firefox/88.0.1/releasenotes>
+- [Firefox] 88.0.1: <https://www.mozilla.org/firefox/88.0.1/releasenotes>
 
 
 
@@ -97,7 +109,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 88.0: <https://www.mozilla.org/firefox/88.0/releasenotes>
+- [Firefox] 88.0: <https://www.mozilla.org/firefox/88.0/releasenotes>
 
 
 
@@ -109,7 +121,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- geckodriver 0.29.1: <https://github.com/mozilla/geckodriver/releases/tag/v0.29.1>
+- [geckodriver] 0.29.1: <https://github.com/mozilla/geckodriver/releases/tag/v0.29.1>
 
 
 
@@ -121,7 +133,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 87.0: <https://www.mozilla.org/firefox/87.0/releasenotes>
+- [Firefox] 87.0: <https://www.mozilla.org/firefox/87.0/releasenotes>
 
 
 
@@ -133,7 +145,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 86.0.1: <https://www.mozilla.org/firefox/86.0.1/releasenotes>
+- [Firefox] 86.0.1: <https://www.mozilla.org/firefox/86.0.1/releasenotes>
 
 
 
@@ -145,7 +157,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 86.0: <https://www.mozilla.org/firefox/86.0/releasenotes>
+- [Firefox] 86.0: <https://www.mozilla.org/firefox/86.0/releasenotes>
 
 
 
@@ -157,7 +169,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 85.0.2: <https://www.mozilla.org/firefox/85.0.2/releasenotes>
+- [Firefox] 85.0.2: <https://www.mozilla.org/firefox/85.0.2/releasenotes>
 
 
 
@@ -169,7 +181,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 85.0.1: <https://www.mozilla.org/firefox/85.0.1/releasenotes>
+- [Firefox] 85.0.1: <https://www.mozilla.org/firefox/85.0.1/releasenotes>
 
 
 
@@ -181,7 +193,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 85.0: <https://www.mozilla.org/firefox/85.0/releasenotes>
+- [Firefox] 85.0: <https://www.mozilla.org/firefox/85.0/releasenotes>
 
 
 
@@ -193,7 +205,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- geckodriver 0.29.0: <https://github.com/mozilla/geckodriver/releases/tag/v0.29.0>
+- [geckodriver] 0.29.0: <https://github.com/mozilla/geckodriver/releases/tag/v0.29.0>
 
 ### Fixed
 
@@ -212,5 +224,7 @@ See [GitHub commits](/../../commits?after=63c662a83d1a9851c7cd81f35d0f5b646dbcdb
 
 
 
-
+[Debian]: https://www.debian.org
+[Firefox]: https://www.mozilla.org/firefox
+[geckodriver]: https://github.com/mozilla/geckodriver
 [Semantic Versioning 2.0.0]: https://semver.org

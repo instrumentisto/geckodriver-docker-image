@@ -27,15 +27,15 @@ NAMESPACES := instrumentisto \
               quay.io/instrumentisto
 NAME := geckodriver
 TAGS ?= $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-r$(BUILD_REV) \
-        $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-r$(BUILD_REV)-debian-buster \
+        $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-r$(BUILD_REV)-debian-bullseye \
         $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-r$(BUILD_REV)-debian \
         $(FIREFOX_VER)-driver$(GECKODRIVER_VER) \
-        $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian-buster \
+        $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian-bullseye \
         $(FIREFOX_VER)-driver$(GECKODRIVER_VER)-debian \
         $(FIREFOX_VER) \
-        $(FIREFOX_VER)-debian-buster \
+        $(FIREFOX_VER)-debian-bullseye \
         $(FIREFOX_VER)-debian \
-        debian-buster \
+        debian-bullseye \
         debian \
         latest
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))

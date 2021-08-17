@@ -1,9 +1,9 @@
 # https://hub.docker.com/_/debian
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 
 ARG firefox_ver=91.0
 ARG geckodriver_ver=0.29.1
-ARG build_rev=0
+ARG build_rev=1
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/geckodriver-docker-image"
