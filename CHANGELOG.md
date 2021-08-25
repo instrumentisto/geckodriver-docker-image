@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [91.0.2-driver0.29.1-r0] · 2021-08-25
+[91.0.2-driver0.29.1-r0]: /../../tree/91.0.2-driver0.29.1-r0
+
+[Diff](/../../compare/91.0.1-driver0.29.1-r1...91.0.2-driver0.29.1-r0)
+
+### Upgraded
+
+- Firefox 91.0.2: <https://www.mozilla.org/firefox/91.0.2/releasenotes>
+
+
+
+
 ## [91.0.1-driver0.29.1-r1] · 2021-08-18
 [91.0.1-driver0.29.1-r1]: /../../tree/91.0.1-driver0.29.1-r1
 
