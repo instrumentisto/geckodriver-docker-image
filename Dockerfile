@@ -2,7 +2,7 @@
 FROM debian:bullseye-slim
 
 ARG firefox_ver=92.0
-ARG geckodriver_ver=0.29.1
+ARG geckodriver_ver=0.30.0
 ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
