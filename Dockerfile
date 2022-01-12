@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:bullseye-slim
 
-ARG firefox_ver=95.0.2
+ARG firefox_ver=96.0
 ARG geckodriver_ver=0.30.0
 ARG build_rev=0
 
@@ -26,7 +26,7 @@ RUN apt-get update \
  && apt-get install -y --no-install-recommends --no-install-suggests \
             `apt-cache depends firefox-esr | awk '/Depends:/{print$2}'` \
             # additional 'firefox-esl' dependencies which is not in 'depends' list
-            libxt6 \
+            libxt6 libxtst6 \
     \
  # Download and install Firefox
  && curl -fL -o /tmp/firefox.tar.bz2 \

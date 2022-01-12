@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [96.0-driver0.30.0-r0] · 2022-01-12
+[96.0-driver0.30.0-r0]: /../../tree/96.0-driver0.30.0-r0
+
+[Diff](/../../compare/95.0.2-driver0.30.0-r0...96.0-driver0.30.0-r0)
+
+### Upgraded
+
+- [Firefox] 96.0: <https://www.mozilla.org/firefox/96.0/releasenotes>
+
+
+
+
 ## [95.0.2-driver0.30.0-r0] · 2021-12-20
 [95.0.2-driver0.30.0-r0]: /../../tree/95.0.2-driver0.30.0-r0
 
