@@ -58,4 +58,4 @@ EXPOSE 4444
 
 ENTRYPOINT ["geckodriver"]
 
-CMD ["--binary=/opt/firefox/firefox", "--log=debug", "--host=0.0.0.0"]
+CMD ["--binary=/opt/firefox/firefox", "--log=debug"]
