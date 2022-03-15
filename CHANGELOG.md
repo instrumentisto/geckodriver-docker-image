@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [98.0.1-driver0.30.0-r0] · 2022-03-15
+[98.0.1-driver0.30.0-r0]: /../../tree/98.0.1-driver0.30.0-r0
+
+[Diff](/../../compare/98.0-driver0.30.0-r0...98.0.1-driver0.30.0-r0)
+
+### Upgraded
+
+- [Firefox] 98.0.1: <https://www.mozilla.org/firefox/98.0.1/releasenotes>
+
+
+
+
 ## [98.0-driver0.30.0-r0] · 2022-03-09
 [98.0-driver0.30.0-r0]: /../../tree/98.0-driver0.30.0-r0
 
