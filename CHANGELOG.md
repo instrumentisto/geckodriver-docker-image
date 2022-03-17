@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [98.0.1-driver0.30.0-r1] · 2022-03-17
+[98.0.1-driver0.30.0-r1]: /../../tree/98.0.1-driver0.30.0-r1
+
+[Diff](/../../compare/98.0.1-driver0.30.0-r0...98.0.1-driver0.30.0-r1)
+
+### Security updated
+
+- [Debian] "bullseye" 20220316: <https://github.com/docker-library/official-images/commit/1e1bb99db26edc6b8605d83eefc22e1288203a20>
+
+
+
+
 ## [98.0.1-driver0.30.0-r0] · 2022-03-15
 [98.0.1-driver0.30.0-r0]: /../../tree/98.0.1-driver0.30.0-r0
 
