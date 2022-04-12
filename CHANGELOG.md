@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [99.0-driver0.31.0-r0] · 2022-04-12
+[99.0-driver0.31.0-r0]: /../../tree/99.0-driver0.31.0-r0
+
+[Diff](/../../compare/99.0-driver0.30.0-r0...99.0-driver0.31.0-r0)
+
+### Upgraded
+
+- [geckodriver] 0.31.0: <https://github.com/mozilla/geckodriver/releases/tag/v0.31.0>
+
+
+
+
 ## [99.0-driver0.30.0-r0] · 2022-04-05
 [99.0-driver0.30.0-r0]: /../../tree/99.0-driver0.30.0-r0
 
@@ -229,7 +241,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 93.0: <https://www.mozilla.org/firefox/93.0/releasenotes>
+- [Firefox] 93.0: <https://www.mozilla.org/firefox/93.0/releasenotes>
 
 
 
@@ -241,7 +253,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 92.0.1: <https://www.mozilla.org/firefox/92.0.1/releasenotes>
+- [Firefox] 92.0.1: <https://www.mozilla.org/firefox/92.0.1/releasenotes>
 
 
 
@@ -265,7 +277,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 92.0: <https://www.mozilla.org/firefox/92.0/releasenotes>
+- [Firefox] 92.0: <https://www.mozilla.org/firefox/92.0/releasenotes>
 
 
 
@@ -277,7 +289,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 91.0.2: <https://www.mozilla.org/firefox/91.0.2/releasenotes>
+- [Firefox] 91.0.2: <https://www.mozilla.org/firefox/91.0.2/releasenotes>
 
 
 
@@ -289,7 +301,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Firefox 91.0.1: <https://www.mozilla.org/firefox/91.0.1/releasenotes>
+- [Firefox] 91.0.1: <https://www.mozilla.org/firefox/91.0.1/releasenotes>
 
 
 

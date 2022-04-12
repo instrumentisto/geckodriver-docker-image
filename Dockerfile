@@ -2,8 +2,8 @@
 FROM debian:bullseye-slim
 
 ARG firefox_ver=99.0
-ARG geckodriver_ver=0.30.0
-ARG build_rev=1
+ARG geckodriver_ver=0.31.0
+ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/geckodriver-docker-image"
