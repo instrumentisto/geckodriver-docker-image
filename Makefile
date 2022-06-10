@@ -78,12 +78,21 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [GECKODRIVER_VER=<geckodriver-version>]
 #	                  [BUILD_REV=<build-revision>]
 
+github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
+github_repo := $(strip $(or $(GITHUB_REPOSITORY),\
+                            instrumentisto/geckodriver-docker-image))
+
 docker.image:
 	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg firefox_ver=$(FIREFOX_VER) \
 		--build-arg geckodriver_ver=$(GECKODRIVER_VER) \
 		--build-arg build_rev=$(BUILD_REV) \
+		--label org.opencontainers.image.source=$(github_url)/$(github_repo) \
+		--label org.opencontainers.image.revision=$(strip \
+			$(shell git show --pretty=format:%H --no-patch)) \
+		--label org.opencontainers.image.version=$(strip \
+			$(shell git describe --tags --dirty)) \
 		-t instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
 
 

@@ -5,9 +5,6 @@ ARG firefox_ver=101.0.1
 ARG geckodriver_ver=0.31.0
 ARG build_rev=0
 
-LABEL org.opencontainers.image.source="\
-    https://github.com/instrumentisto/geckodriver-docker-image"
-
 
 RUN apt-get update \
  && apt-get upgrade -y \
