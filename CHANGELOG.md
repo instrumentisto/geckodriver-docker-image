@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [102.0-driver0.31.0-r0] · 2022-06-29
+[102.0-driver0.31.0-r0]: /../../tree/102.0-driver0.31.0-r0
+
+[Diff](/../../compare/101.0.1-driver0.31.0-r0...102.0-driver0.31.0-r0)
+
+### Upgraded
+
+- [Firefox] 102.0: <https://www.mozilla.org/firefox/102.0/releasenotes>
+
+
+
+
 ## [101.0.1-driver0.31.0-r0] · 2022-06-10
 [101.0.1-driver0.31.0-r0]: /../../tree/101.0.1-driver0.31.0-r0
 
