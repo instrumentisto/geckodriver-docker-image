@@ -2,14 +2,14 @@ geckodriver Docker image
 ========================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/geckodriver-docker-image "Release")](https://github.com/instrumentisto/geckodriver-docker-image/releases)
-[![CI](https://github.com/instrumentisto/geckodriver-docker-image/workflows/CI/badge.svg?branch=master "CI")](https://github.com/instrumentisto/geckodriver-docker-image/actions?query=workflow%3ACI+branch%3Amaster)
+[![CI](https://github.com/instrumentisto/geckodriver-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/geckodriver-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/geckodriver?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/geckodriver)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/geckodriver)
 | [GitHub Container Registry](https://github.com/orgs/instrumentisto/packages/container/package/geckodriver)
 | [Quay.io](https://quay.io/repository/instrumentisto/geckodriver)
 
-[Changelog](https://github.com/instrumentisto/geckodriver-docker-image/blob/master/CHANGELOG.md)
+[Changelog](https://github.com/instrumentisto/geckodriver-docker-image/blob/main/CHANGELOG.md)
 
 
 
@@ -82,7 +82,7 @@ If you have any problems with or questions about this image, please contact us t
 [Mozilla Public License 2.0]: https://www.mozilla.org/en-US/MPL/2.0
 
 [1]: https://github.com/instrumentisto/geckodriver-docker-image/issues
-[2]: https://github.com/instrumentisto/geckodriver-docker-image/blob/master/LICENSE.md
+[2]: https://github.com/instrumentisto/geckodriver-docker-image/blob/main/LICENSE.md
 [3]: https://github.com/instrumentisto/geckodriver-docker-image
 
-[101]: https://github.com/instrumentisto/geckodriver-docker-image/blob/master/Dockerfile
+[101]: https://github.com/instrumentisto/geckodriver-docker-image/blob/main/Dockerfile
