@@ -2,7 +2,7 @@
 FROM debian:bullseye-slim
 
 ARG firefox_ver=105.0.3
-ARG geckodriver_ver=0.31.0
+ARG geckodriver_ver=0.32.0
 ARG build_rev=0
 
 
