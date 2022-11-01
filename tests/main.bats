@@ -2,12 +2,14 @@
 
 
 @test "Firefox is installed" {
-  run docker run --rm --entrypoint sh $IMAGE -c 'test -f /opt/firefox/firefox'
+  run docker run --rm --pull never --entrypoint sh $IMAGE -c \
+    'test -f /opt/firefox/firefox'
   [ "$status" -eq 0 ]
 }
 
 @test "Firefox runs ok" {
-  run docker run --rm --entrypoint sh $IMAGE -c '/opt/firefox/firefox --help'
+  run docker run --rm --pull never --entrypoint sh $IMAGE -c \
+    '/opt/firefox/firefox --help'
   [ "$status" -eq 0 ]
 }
 
@@ -17,7 +19,7 @@
   [ ! "$output" = '' ]
   expected="$output"
 
-  run docker run --rm -e MOZ_HEADLESS=0 --entrypoint sh $IMAGE -c \
+  run docker run --rm --pull never -e MOZ_HEADLESS=0 --entrypoint sh $IMAGE -c \
     "/opt/firefox/firefox -v"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
@@ -28,12 +30,14 @@
 
 
 @test "geckodriver is installed" {
-  run docker run --rm --entrypoint sh $IMAGE -c 'which geckodriver'
+  run docker run --rm --pull never --entrypoint sh $IMAGE -c \
+    'which geckodriver'
   [ "$status" -eq 0 ]
 }
 
 @test "geckodriver runs ok" {
-  run docker run --rm --entrypoint sh $IMAGE -c 'geckodriver --help'
+  run docker run --rm --pull never --entrypoint sh $IMAGE -c \
+    'geckodriver --help'
   [ "$status" -eq 0 ]
 }
 
@@ -43,7 +47,7 @@
   [ ! "$output" = '' ]
   expected="$output"
 
-  run docker run --rm --entrypoint sh $IMAGE -c \
+  run docker run --rm --pull never --entrypoint sh $IMAGE -c \
     "geckodriver -V | grep -m 1 geckodriver | cut -d ' ' -f2"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
