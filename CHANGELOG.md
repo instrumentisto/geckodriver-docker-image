@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [106.0.4-driver0.32.0-r0] · 2022-11-04
+[106.0.4-driver0.32.0-r0]: /../../tree/106.0.4-driver0.32.0-r0
+
+[Diff](/../../compare/106.0.3-driver0.32.0-r0...106.0.4-driver0.32.0-r0)
+
+### Upgraded
+
+- [Firefox] 106.0.4: <https://www.mozilla.org/firefox/106.0.4/releasenotes>
+
+
+
+
 ## [106.0.3-driver0.32.0-r0] · 2022-11-01
 [106.0.3-driver0.32.0-r0]: /../../tree/106.0.3-driver0.32.0-r0
 
@@ -26,6 +38,10 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [Firefox] 106.0.2: <https://www.mozilla.org/firefox/106.0.2/releasenotes>
+
+### Security updated
+
+- [Debian] "bullseye" 20221024: <https://github.com/docker-library/official-images/commit/9e5f4f05325f02868324cde8533a801ec593d317>
 
 
 
