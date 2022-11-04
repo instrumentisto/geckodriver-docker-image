@@ -53,6 +53,38 @@ Consider to increase shared memory size (`--shm-size 2g` option), otherwise you 
 
 
 
+## Image versions
+
+
+### `debian`
+
+Latest tag of the latest [Firefox] and [geckodriver] versions on the latest stable [Debian] version.
+
+
+### `debian-<name>`
+
+Latest tag of the latest [Firefox] and [geckodriver] versions on the latest `<name>` [Debian] version.
+
+
+### `<X.Y>`/`<X.Y.Z>`
+
+Latest tag of the concrete `X.Y` (or `X.Y.Z`) [Firefox] version with the latest [geckodriver] version.
+
+
+### `<X.Y>-driver<A.B.C>`/`<X.Y.Z>-driver<A.B.C>`
+
+Latest tag of the concrete `X.Y` (or `X.Y.Z`) [Firefox] version with the concrete `A.B.C` [geckodriver] version.
+
+
+### `<X.Y>-driver<A.B.C>-r<N>`/`<X.Y.Z>-driver<A.B.C>-r<N>`
+
+Concrete `N` image revision tag of the concrete `X.Y` (or `X.Y.Z`) [Firefox] version with the concrete `A.B.C` [geckodriver] version.
+
+Once built, it's never updated.
+
+
+
+
 ## License
 
 [Firefox] and [geckodriver] are licensed under [Mozilla Public License 2.0].
@@ -75,7 +107,7 @@ If you have any problems with or questions about this image, please contact us t
 
 
 
-
+[Debian]: https://www.debian.org
 [DockerHub]: https://hub.docker.com
 [Firefox]: https://www.mozilla.org/firefox
 [geckodriver]: https://github.com/mozilla/geckodriver

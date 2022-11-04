@@ -67,11 +67,10 @@ jobs:
   # Releasing #
   #############
 
-  release-docker:
-    name: Release Docker image
-    needs: ["build", "test"]
+  push:
     if: ${{ github.event_name == 'push'
          && startsWith(github.ref, 'refs/tags/') }}
+    needs: ["build", "test"]
     strategy:
       fail-fast: false
       matrix:
@@ -153,10 +152,10 @@ jobs:
              && matrix.registry == 'quay.io' }}
 
   release-github:
-    name: Release on GitHub
-    needs: ["release-docker"]
+    name: release on GitHub
     if: ${{ github.event_name == 'push'
          && startsWith(github.ref, 'refs/tags/') }}
+    needs: ["push"]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
