@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [108.0.2-driver0.32.0-r0] · 2023-01-07
+[108.0.2-driver0.32.0-r0]: /../../tree/108.0.2-driver0.32.0-r0
+
+[Diff](/../../compare/108.0.1-driver0.32.0-r0...108.0.2-driver0.32.0-r0)
+
+### Upgraded
+
+- [Firefox] 108.0.2: <https://www.mozilla.org/firefox/108.0.2/releasenotes>
+
+
+
+
 ## [108.0.1-driver0.32.0-r0] · 2022-12-19
 [108.0.1-driver0.32.0-r0]: /../../tree/108.0.1-driver0.32.0-r0
 
