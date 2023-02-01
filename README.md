@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`109.0-driver0.32.0-r0-debian-bullseye`, `109.0-driver0.32.0-r0-debian`, `109.0-driver0.32.0-r0`, `109.0-driver0.32.0-debian-bullseye`, `109.0-driver0.32.0-debian`, `109.0-driver0.32.0`, `109.0-debian-bullseye`, `109.0-debian`, `109.0`, `debian-bullseye`, `debian`, `latest`][101]
+- [`109.0.1-driver0.32.0-r0-debian-bullseye`, `109.0.1-driver0.32.0-r0-debian`, `109.0.1-driver0.32.0-r0`, `109.0.1-driver0.32.0-debian-bullseye`, `109.0.1-driver0.32.0-debian`, `109.0.1-driver0.32.0`, `109.0.1-debian-bullseye`, `109.0.1-debian`, `109.0.1`, `debian-bullseye`, `debian`, `latest`][101]
 
 
 
@@ -53,7 +53,7 @@ Consider to increase shared memory size (`--shm-size 2g` option), otherwise you 
 
 
 
-## Image versions
+## Image tags
 
 
 ### `debian`
