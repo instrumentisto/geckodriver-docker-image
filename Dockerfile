@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:bullseye-slim
 
-ARG firefox_ver=109.0.1
+ARG firefox_ver=110.0
 ARG geckodriver_ver=0.32.2
 ARG build_rev=0
 
