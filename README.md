@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`110.0-driver0.32.2-r0-debian-bullseye`, `110.0-driver0.32.2-r0-debian`, `110.0-driver0.32.2-r0`, `110.0-driver0.32.2-debian-bullseye`, `110.0-driver0.32.2-debian`, `110.0-driver0.32.2`, `110.0-debian-bullseye`, `110.0-debian`, `110.0`, `debian-bullseye`, `debian`, `latest`][101]
+- [`110.0.1-driver0.32.2-r0-debian-bullseye`, `110.0.1-driver0.32.2-r0-debian`, `110.0.1-driver0.32.2-r0`, `110.0.1-driver0.32.2-debian-bullseye`, `110.0.1-driver0.32.2-debian`, `110.0.1-driver0.32.2`, `110.0.1-debian-bullseye`, `110.0.1-debian`, `110.0.1`, `debian-bullseye`, `debian`, `latest`][101]
 
 
 
