@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [111.0.1-driver0.33.0-r0] · 2023-04-05
+[111.0.1-driver0.33.0-r0]: /../../tree/111.0.1-driver0.33.0-r0
+
+[Diff](/../../compare/111.0.1-driver0.32.2-r0...111.0.1-driver0.33.0-r0)
+
+### Upgraded
+
+- [geckodriver] 0.33.0: <https://github.com/mozilla/geckodriver/releases/tag/v0.33.0>
+
+### Security updated
+
+- [Debian] "bullseye" 20230320: <https://github.com/docker-library/official-images/commit/066bc3b863f98325ff211a27301fe1b5a5d51721>
+
+
+
+
 ## [111.0.1-driver0.32.2-r0] · 2023-03-22
 [111.0.1-driver0.32.2-r0]: /../../tree/111.0.1-driver0.32.2-r0
 
