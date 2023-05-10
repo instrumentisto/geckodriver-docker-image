@@ -73,7 +73,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20230320: <https://github.com/docker-library/official-images/commit/066bc3b863f98325ff211a27301fe1b5a5d51721>
+- [Debian Linux] "bullseye" 20230320: <https://github.com/docker-library/official-images/commit/066bc3b863f98325ff211a27301fe1b5a5d51721>
 
 
 
@@ -113,7 +113,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20230227: <https://github.com/docker-library/official-images/commit/506f54a037daf8ae03198ec618f226bb2d0fca7d>
+- [Debian Linux] "bullseye" 20230227: <https://github.com/docker-library/official-images/commit/506f54a037daf8ae03198ec618f226bb2d0fca7d>
 
 
 
@@ -141,7 +141,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20230208: <https://github.com/docker-library/official-images/commit/0a379d1f4d38dee47df84b07afcf5c26d03cc5a5>
+- [Debian Linux] "bullseye" 20230208: <https://github.com/docker-library/official-images/commit/0a379d1f4d38dee47df84b07afcf5c26d03cc5a5>
 
 
 
@@ -181,7 +181,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20230109: <https://github.com/docker-library/official-images/commit/5e4784af91b60ebae23aab567b6cea3dcdb173a0>
+- [Debian Linux] "bullseye" 20230109: <https://github.com/docker-library/official-images/commit/5e4784af91b60ebae23aab567b6cea3dcdb173a0>
 
 
 
@@ -221,7 +221,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20221205: <https://github.com/docker-library/official-images/commit/7b25d8a0ffc1c514e9551ee2dcceac3aa37e71ad>
+- [Debian Linux] "bullseye" 20221205: <https://github.com/docker-library/official-images/commit/7b25d8a0ffc1c514e9551ee2dcceac3aa37e71ad>
 
 
 
@@ -249,7 +249,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20221114: <https://github.com/docker-library/official-images/commit/629455d056a9b046c12d4fa65a1006d4b94b5fa5>
+- [Debian Linux] "bullseye" 20221114: <https://github.com/docker-library/official-images/commit/629455d056a9b046c12d4fa65a1006d4b94b5fa5>
 
 
 
@@ -301,7 +301,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20221024: <https://github.com/docker-library/official-images/commit/9e5f4f05325f02868324cde8533a801ec593d317>
+- [Debian Linux] "bullseye" 20221024: <https://github.com/docker-library/official-images/commit/9e5f4f05325f02868324cde8533a801ec593d317>
 
 
 
@@ -341,7 +341,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20221004: <https://github.com/docker-library/official-images/commit/7d18758d89c19f3d337d4c3d2669839969400f86>
+- [Debian Linux] "bullseye" 20221004: <https://github.com/docker-library/official-images/commit/7d18758d89c19f3d337d4c3d2669839969400f86>
 
 
 
@@ -429,7 +429,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20220822: <https://github.com/docker-library/official-images/commit/318425555992e2bee72ecb67743ad492f38b71bc>
+- [Debian Linux] "bullseye" 20220822: <https://github.com/docker-library/official-images/commit/318425555992e2bee72ecb67743ad492f38b71bc>
 
 
 
@@ -609,7 +609,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Security updated
 
-- [Debian] "bullseye" 20220316: <https://github.com/docker-library/official-images/commit/1e1bb99db26edc6b8605d83eefc22e1288203a20>
+- [Debian Linux] "bullseye" 20220316: <https://github.com/docker-library/official-images/commit/1e1bb99db26edc6b8605d83eefc22e1288203a20>
 
 
 
@@ -873,7 +873,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Debian] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
+- [Debian Linux] "bullseye": <https://www.debian.org/releases/bullseye/releasenotes>
 
 
 
@@ -1084,7 +1084,7 @@ See [GitHub commits](/../../commits?after=63c662a83d1a9851c7cd81f35d0f5b646dbcdb
 
 
 
-[Debian]: https://www.debian.org
+[Debian Linux]: https://www.debian.org
 [Firefox]: https://www.mozilla.org/firefox
 [geckodriver]: https://github.com/mozilla/geckodriver
 [Semantic Versioning 2.0.0]: https://semver.org
