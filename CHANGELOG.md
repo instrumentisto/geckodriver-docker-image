@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [113.0.2-driver0.33.0-r0] · 2023-05-25
+[113.0.2-driver0.33.0-r0]: /../../tree/113.0.2-driver0.33.0-r0
+
+[Diff](/../../compare/113.0.1-driver0.33.0-r0...113.0.2-driver0.33.0-r0)
+
+### Upgraded
+
+- [Firefox] 113.0.2: <https://www.mozilla.org/firefox/113.0.2/releasenotes>
+
+### Security updated
+
+- [Debian Linux] "bullseye" 20230522: <https://github.com/docker-library/official-images/commit/badf7465a9a7427b81ca2249e7f40da340285612>
+
+
+
+
 ## [113.0.1-driver0.33.0-r0] · 2023-05-15
 [113.0.1-driver0.33.0-r0]: /../../tree/113.0.1-driver0.33.0-r0
 
