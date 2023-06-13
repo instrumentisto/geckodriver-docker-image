@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [114.0.1-driver0.33.0-r1] · 2023-06-13
+[114.0.1-driver0.33.0-r1]: /../../tree/114.0.1-driver0.33.0-r1
+
+[Diff](/../../compare/114.0.1-driver0.33.0-r0...114.0.1-driver0.33.0-r1)
+
+### Upgraded
+
+- [Debian Linux] "bookworm": <https://www.debian.org/releases/bookworm>
+
+
+
+
 ## [114.0.1-driver0.33.0-r0] · 2023-06-12
 [114.0.1-driver0.33.0-r0]: /../../tree/114.0.1-driver0.33.0-r0
 
