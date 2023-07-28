@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [115.0.3-driver0.33.0-r0] · 2023-07-28
+[115.0.3-driver0.33.0-r0]: /../../tree/115.0.3-driver0.33.0-r0
+
+[Diff](/../../compare/115.0.2-driver0.33.0-r0...115.0.3-driver0.33.0-r0)
+
+### Upgraded
+
+- [Firefox] 115.0.3: <https://www.mozilla.org/firefox/115.0.3/releasenotes>
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20230725: <https://github.com/docker-library/official-images/commit/c4720be18315c939088c4b57472955cdc4d08a4a>
+
+
+
+
 ## [115.0.2-driver0.33.0-r0] · 2023-07-13
 [115.0.2-driver0.33.0-r0]: /../../tree/115.0.2-driver0.33.0-r0
 
