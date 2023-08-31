@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`116.0.3-driver0.33.0-r0-debian-bookworm`, `116.0.3-driver0.33.0-r0-debian`, `116.0.3-driver0.33.0-r0`, `116.0.3-driver0.33.0-debian-bookworm`, `116.0.3-driver0.33.0-debian`, `116.0.3-driver0.33.0`, `116.0.3-debian-bookworm`, `116.0.3-debian`, `116.0.3`, `debian-bookworm`, `debian`, `latest`][101]
+- [`117.0-driver0.33.0-r0-debian-bookworm`, `117.0-driver0.33.0-r0-debian`, `117.0-driver0.33.0-r0`, `117.0-driver0.33.0-debian-bookworm`, `117.0-driver0.33.0-debian`, `117.0-driver0.33.0`, `117.0-debian-bookworm`, `117.0-debian`, `117.0`, `debian-bookworm`, `debian`, `latest`][101]
 
 
 
