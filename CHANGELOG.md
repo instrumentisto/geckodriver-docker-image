@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [118.0.2-driver0.33.0-r0] · 2023-??-??
+[118.0.2-driver0.33.0-r0]: /../../tree/118.0.2-driver0.33.0-r0
+
+[Diff](/../../compare/118.0.2-driver0.33.0-r0...)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20231009: <https://github.com/docker-library/official-images/commit/ef808eeaa23c28fd72cdcc5374affcc71894bbcc>
+
+
+
+
 ## [118.0.2-driver0.33.0-r0] · 2023-10-11
 [118.0.2-driver0.33.0-r0]: /../../tree/118.0.2-driver0.33.0-r0
 
