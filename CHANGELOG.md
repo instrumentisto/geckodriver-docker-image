@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [119.0-driver0.33.0-r0] · 2023-??-??
-[119.0-driver0.33.0-r0]: /../../tree/119.0-driver0.33.0-r0
+## [119.0.1-driver0.33.0-r0] · 2023-11-08
+[119.0.1-driver0.33.0-r0]: /../../tree/119.0.1-driver0.33.0-r0
 
-[Diff](/../../compare/119.0-driver0.33.0-r0...)
+[Diff](/../../compare/119.0-driver0.33.0-r0...119.0.1-driver0.33.0-r0)
+
+### Upgraded
+
+- [Firefox] 119.0.1: <https://www.mozilla.org/firefox/119.0.1/releasenotes>
 
 ### Security updated
 
