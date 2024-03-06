@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [123.0.1-driver0.34.0-r0] · 2024-03-06
+[123.0.1-driver0.34.0-r0]: /../../tree/123.0.1-driver0.34.0-r0
+
+[Diff](/../../compare/123.0-driver0.34.0-r0...123.0.1-driver0.34.0-r0)
+
+### Upgraded
+
+- [Firefox] 123.0.1: <https://www.mozilla.org/firefox/123.0.1/releasenotes>
+
+
+
+
 ## [123.0-driver0.34.0-r0] · 2024-02-21
 [123.0-driver0.34.0-r0]: /../../tree/123.0-driver0.34.0-r0
 
