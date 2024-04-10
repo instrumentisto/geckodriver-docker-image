@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [124.0.2-driver0.34.0-r0] · 2024-??-?? (unreleased)
+[124.0.2-driver0.34.0-r0]: /../../tree/124.0.2-driver0.34.0-r0
+
+[Diff](/../../compare/124.0.2-driver0.34.0-r0...)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20240408 (12.5): <https://github.com/docker-library/official-images/commit/6b87410113a686735d3eae520777644d3b29bec1>
+
+
+
+
 ## [124.0.2-driver0.34.0-r0] · 2024-04-03
 [124.0.2-driver0.34.0-r0]: /../../tree/124.0.2-driver0.34.0-r0
 
