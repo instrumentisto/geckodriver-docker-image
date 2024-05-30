@@ -3,7 +3,7 @@ FROM debian:bookworm-slim
 
 ARG firefox_ver=126.0.1
 ARG geckodriver_ver=0.34.0
-ARG build_rev=0
+ARG build_rev=1
 
 
 RUN apt-get update \
@@ -21,6 +21,7 @@ RUN apt-get update \
     \
  # Install dependencies for Firefox
  && apt-get install -y --no-install-recommends --no-install-suggests \
+            libgl1 libpci3 \
             `apt-cache depends firefox-esr | awk '/Depends:/{print$2}'` \
     \
  # Download and install Firefox

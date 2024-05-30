@@ -6,6 +6,20 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [126.0.1-driver0.34.0-r1] · 2024-05-30
+[126.0.1-driver0.34.0-r1]: /../../tree/126.0.1-driver0.34.0-r1
+
+[Diff](/../../compare/126.0.1-driver0.34.0-r0...126.0.1-driver0.34.0-r1)
+
+### Fixed
+
+- Missing `libgl` and `libpci`. ([#11])
+
+[#11]: /../../issues/11
+
+
+
+
 ## [126.0.1-driver0.34.0-r0] · 2024-05-30
 [126.0.1-driver0.34.0-r0]: /../../tree/126.0.1-driver0.34.0-r0
 
@@ -1593,7 +1607,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Fixed
 
-- Absent `MOZ_HEADLESS=1` env var to ensure headless mode ([#4], [#3]).
+- Absent `MOZ_HEADLESS=1` env var to ensure headless mode. ([#4], [#3])
 
 [#3]: /../../issues/3
 [#4]: /../../pull/4
