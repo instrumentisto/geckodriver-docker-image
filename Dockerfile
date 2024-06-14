@@ -1,9 +1,9 @@
 # https://hub.docker.com/_/debian
 FROM debian:bookworm-slim
 
-ARG firefox_ver=126.0.1
+ARG firefox_ver=127.0
 ARG geckodriver_ver=0.34.0
-ARG build_rev=1
+ARG build_rev=0
 
 
 RUN apt-get update \
