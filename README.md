@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`127.0-driver0.34.0-r0-debian-bookworm`, `127.0-driver0.34.0-r0-debian`, `127.0-driver0.34.0-r0`, `127.0-driver0.34.0-debian-bookworm`, `127.0-driver0.34.0-debian`, `127.0-driver0.34.0`, `127.0-debian-bookworm`, `127.0-debian`, `127.0`, `debian-bookworm`, `debian`, `latest`][101]
+- [`127.0.1-driver0.34.0-r0-debian-bookworm`, `127.0.1-driver0.34.0-r0-debian`, `127.0.1-driver0.34.0-r0`, `127.0.1-driver0.34.0-debian-bookworm`, `127.0.1-driver0.34.0-debian`, `127.0.1-driver0.34.0`, `127.0.1-debian-bookworm`, `127.0.1-debian`, `127.0.1`, `debian-bookworm`, `debian`, `latest`][101]
 
 
 
@@ -44,7 +44,7 @@ This image bundles [geckodriver] with [Firefox] and is suitable for running head
 docker run -d -p 4444:4444 instrumentisto/geckodriver
 ```
 
-After that you can connect to [geckodriver] that is listening on `127.0.0.1:4444`. Only headless mode is supported.
+After that you can connect to [geckodriver] that is listening on `127.0.1.0.1:4444`. Only headless mode is supported.
 
 Consider using `--network=host` option for running image if you want to run tests on local server.
 
