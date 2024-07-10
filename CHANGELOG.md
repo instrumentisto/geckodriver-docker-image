@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [127.0.2-driver0.34.0-r0] · 2024-??-?? (unreleased)
-[127.0.2-driver0.34.0-r0]: /../../tree/127.0.2-driver0.34.0-r0
+## [128.0-driver0.34.0-r0] · 2024-07-10
+[128.0-driver0.34.0-r0]: /../../tree/128.0-driver0.34.0-r0
 
-[Diff](/../../compare/127.0.2-driver0.34.0-r0...)
+[Diff](/../../compare/127.0.2-driver0.34.0-r0...128.0-driver0.34.0-r0)
+
+### Upgraded
+
+- [Firefox] 128.0: <https://www.mozilla.org/firefox/128.0/releasenotes>
 
 ### Security updated
 
