@@ -2,7 +2,7 @@
 FROM debian:bookworm-slim
 
 ARG firefox_ver=129.0
-ARG geckodriver_ver=0.34.0
+ARG geckodriver_ver=0.35.0
 ARG build_rev=0
 
 

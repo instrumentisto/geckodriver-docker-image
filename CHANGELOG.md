@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [129.0-driver0.35.0-r0] · 2024-08-07
+[129.0-driver0.35.0-r0]: /../../tree/129.0-driver0.35.0-r0
+
+[Diff](/../../compare/129.0-driver0.34.0-r0...129.0-driver0.35.0-r0)
+
+### Upgraded
+
+- [geckodriver] 0.35.0: <https://github.com/mozilla/geckodriver/releases/tag/v0.35.0>
+
+
+
+
 ## [129.0-driver0.34.0-r0] · 2024-08-07
 [129.0-driver0.34.0-r0]: /../../tree/129.0-driver0.34.0-r0
 
