@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:bookworm-slim
 
-ARG firefox_ver=131.0.3
+ARG firefox_ver=132.0
 ARG geckodriver_ver=0.35.0
 ARG build_rev=0
 
