@@ -53,6 +53,30 @@ Consider to increase shared memory size (`--shm-size 2g` option), otherwise you 
 
 
 
+### In a docker-compose
+
+Listening on `127.0.0.1` works when launched as a container, but not in a docker-compose, where the allowed hosts shall be explictly set:
+
+```docker-compose
+services:
+  stuff:
+    image: whatever
+    environment:
+      WEBDRIVER_URL: "http://webdriver:4444"
+      #                      ^^^^^^^^^~~ using Docker namespaces
+
+  webdriver:
+    image: instrumentisto/geckodriver
+    command: "--host webdriver --binary=/opt/firefox/firefox"
+    #         ^^^^^^^^^^^^^^^^~~ exposing service by this name
+
+```
+
+Otherwise, geckodriver will not accept incoming requests.
+
+
+
+
 ## Image tags
 
 
