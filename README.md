@@ -51,28 +51,22 @@ Consider using `--network=host` option for running image if you want to run test
 Consider to increase shared memory size (`--shm-size 2g` option), otherwise you may experience unexpected [Firefox] crashes.
 
 
+### [Docker Compose] gotchas
 
-
-### In a docker-compose
-
-Listening on `127.0.0.1` works when launched as a container, but not in a docker-compose, where the allowed hosts shall be explictly set:
-
+Accessing via `127.0.0.1` works well once launched as a simple container. However, in a [Docker Compose] environment, there likely would be complications due to its [networking modes][201]. By default, `services` are reached by its name, which the launched [geckodriver] is unaware of. That's why the allowed hosts should be explicitly specified:
 ```docker-compose
 services:
   stuff:
     image: whatever
     environment:
       WEBDRIVER_URL: "http://webdriver:4444"
-      #                      ^^^^^^^^^~~ using Docker namespaces
-
+      #                      ^^^^^^^^^ using service name
   webdriver:
     image: instrumentisto/geckodriver
-    command: "--host webdriver --binary=/opt/firefox/firefox"
-    #         ^^^^^^^^^^^^^^^^~~ exposing service by this name
-
+    command: "--host=webdriver --binary=/opt/firefox/firefox --log=debug"
+    #         ^^^^^^^^^^^^^^^^ allow service name for geckodriver
 ```
-
-Otherwise, geckodriver will not accept incoming requests.
+Otherwise, [geckodriver] won't accept any incoming requests.
 
 
 
@@ -133,6 +127,7 @@ If you have any problems with or questions about this image, please contact us t
 
 [Debian]: https://www.debian.org
 [DockerHub]: https://hub.docker.com
+[Docker Compose]: https://docs.docker.com/compose
 [Firefox]: https://www.mozilla.org/firefox
 [geckodriver]: https://github.com/mozilla/geckodriver
 [Mozilla Public License 2.0]: https://www.mozilla.org/en-US/MPL/2.0
@@ -142,3 +137,5 @@ If you have any problems with or questions about this image, please contact us t
 [3]: https://github.com/instrumentisto/geckodriver-docker-image
 
 [101]: https://github.com/instrumentisto/geckodriver-docker-image/blob/main/Dockerfile
+
+[201]: https://docs.docker.com/compose/how-tos/networking
