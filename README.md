@@ -53,7 +53,7 @@ Consider to increase shared memory size (`--shm-size 2g` option), otherwise you 
 
 ### [Docker Compose] gotchas
 
-Accessing via `127.0.0.1` works well once launched as a simple container. However, in a [Docker Compose] environment, there likely would be complications due to its [networking modes][201]. By default, `services` are reached by its name, which the launched [geckodriver] is unaware of. That's why the allowed hosts should be explicitly specified:
+Accessing via `127.0.0.1` works well once launched as a simple container. However, in a [Docker Compose] environment, there likely would be complications due to its [networking modes][201]. By default, `services` are reached by its name, which the launched [geckodriver] is unaware of. That's why the allowed hosts should be explicitly specified (either via `--host` argument, or `--allow-hosts` one for multiple entries):
 ```docker-compose
 services:
   stuff:
