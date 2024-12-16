@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [main] · unreleased
-[main]: /../../tree/main
+## [133.0.3-driver0.35.0-r0] · 2024-12-16
+[133.0.3-driver0.35.0-r0]: /../../tree/133.0.3-driver0.35.0-r0
 
-[Diff](/../../compare/133.0-driver0.35.0-r0...main)
+[Diff](/../../compare/133.0-driver0.35.0-r0...133.0.3-driver0.35.0-r0)
+
+### Upgraded
+
+- [Firefox] 133.0.3: <https://www.mozilla.org/firefox/133.0.3/releasenotes>
 
 ### Security updated
 
