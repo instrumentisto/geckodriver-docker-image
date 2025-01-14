@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [main] · unreleased
+[main]: /../../tree/main
+
+[Diff](/../../compare/134.0-driver0.35.0-r0...main)
+
+### Security updated
+
+- [Debian Linux] "bookworm" 20250113 (12.9): <https://github.com/docker-library/official-images/commit/2c6a90058ee784d32da51dd22ee59d6fb6d670e2>
+
+
+
+
 ## [134.0-driver0.35.0-r0] · 2025-01-10
 [134.0-driver0.35.0-r0]: /../../tree/134.0-driver0.35.0-r0
 
