@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [134.0.2-driver0.35.0-r0] · 2025-01-23
+[134.0.2-driver0.35.0-r0]: /../../tree/134.0.2-driver0.35.0-r0
+
+[Diff](/../../compare/134.0.1-driver0.35.0-r0...134.0.2-driver0.35.0-r0)
+
+### Upgraded
+
+- [Firefox] 134.0.2: <https://www.mozilla.org/firefox/134.0.2/releasenotes>
+
+
+
+
 ## [134.0.1-driver0.35.0-r0] · 2025-01-15
 [134.0.1-driver0.35.0-r0]: /../../tree/134.0.1-driver0.35.0-r0
 
