@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:bookworm-slim
 
-ARG firefox_ver=134.0.2
+ARG firefox_ver=135.0
 ARG geckodriver_ver=0.35.0
 ARG build_rev=0
 
@@ -14,7 +14,7 @@ RUN apt-get update \
     \
  # Install tools for building
  && toolDeps=" \
-        curl bzip2 \
+        curl xz-utils \
     " \
  && apt-get install -y --no-install-recommends --no-install-suggests \
             $toolDeps \
@@ -25,9 +25,9 @@ RUN apt-get update \
             `apt-cache depends firefox-esr | awk '/Depends:/{print$2}'` \
     \
  # Download and install Firefox
- && curl -fL -o /tmp/firefox.tar.bz2 \
-         https://ftp.mozilla.org/pub/firefox/releases/${firefox_ver}/linux-x86_64/en-GB/firefox-${firefox_ver}.tar.bz2 \
- && tar -xjf /tmp/firefox.tar.bz2 -C /tmp/ \
+ && curl -fL -o /tmp/firefox.tar.xz \
+         https://ftp.mozilla.org/pub/firefox/releases/${firefox_ver}/linux-x86_64/en-GB/firefox-${firefox_ver}.tar.xz \
+ && tar -xJf /tmp/firefox.tar.xz -C /tmp/ \
  && mv /tmp/firefox /opt/firefox \
     \
  # Download and install geckodriver
