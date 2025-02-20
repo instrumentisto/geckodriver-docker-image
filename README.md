@@ -2,7 +2,7 @@ geckodriver Docker image
 ========================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/geckodriver-docker-image "Release")](https://github.com/instrumentisto/geckodriver-docker-image/releases)
-[![CI](https://github.com/instrumentisto/geckodriver-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/geckodriver-docker-image/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/instrumentisto/geckodriver-docker-image/actions/workflows/ci.yml/badge.svg?branch=main "CI")](https://github.com/instrumentisto/geckodriver-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/geckodriver?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/geckodriver)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/geckodriver)
@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`135.0-driver0.35.0-r0-debian-bookworm`, `135.0-driver0.35.0-r0-debian`, `135.0-driver0.35.0-r0`, `135.0-driver0.35.0-debian-bookworm`, `135.0-driver0.35.0-debian`, `135.0-driver0.35.0`, `135.0-debian-bookworm`, `135.0-debian`, `135.0`, `debian-bookworm`, `debian`, `latest`][101]
+- [`135.0.1-driver0.35.0-r0-debian-bookworm`, `135.0.1-driver0.35.0-r0-debian`, `135.0.1-driver0.35.0-r0`, `135.0.1-driver0.35.0-debian-bookworm`, `135.0.1-driver0.35.0-debian`, `135.0.1-driver0.35.0`, `135.0.1-debian-bookworm`, `135.0.1-debian`, `135.0.1`, `debian-bookworm`, `debian`, `latest`][101]
 
 
 
