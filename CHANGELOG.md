@@ -6,14 +6,25 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/139.0.1-driver0.36.0-r0...main)
+
+### Upgraded
+
+- [Firefox] 139.0.1: <https://www.mozilla.org/firefox/139.0.1/releasenotes>
+
+
+
+
 ## [139.0.1-driver0.36.0-r0] · 2025-06-02
 [139.0.1-driver0.36.0-r0]: /../../tree/139.0.1-driver0.36.0-r0
 
 [Diff](/../../compare/139.0-driver0.36.0-r0...139.0.1-driver0.36.0-r0)
 
-### Upgraded
+### Security updated
 
-- [Firefox] 139.0.1: <https://www.mozilla.org/firefox/139.0.1/releasenotes>
+- [Debian Linux] "bookworm" 20250610 (12.11): <https://github.com/docker-library/official-images/commit/5b9d8958f88a1485f8edcaed4800fcfaac500b28>
 
 
 
