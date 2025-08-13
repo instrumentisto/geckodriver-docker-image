@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/debian
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 ARG firefox_ver=141.0.3
 ARG geckodriver_ver=0.36.0

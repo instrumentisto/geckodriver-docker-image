@@ -10,9 +10,9 @@ All user visible changes to this project will be documented in this file. This p
 
 [Diff](/../../compare/141.0.3-driver0.36.0-r0...main)
 
-### Security updated
+### Upgraded
 
-- [Debian Linux] "bookworm" 20250811 (12.11): <https://github.com/docker-library/official-images/commit/9104ff62fc7a735b9646379f7b3246ab471fbae4>
+- [Debian Linux] "trixie": <https://www.debian.org/releases/trixie>
 
 
 
