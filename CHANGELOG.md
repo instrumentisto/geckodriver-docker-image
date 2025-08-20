@@ -6,12 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [142.0-driver0.36.0-r0] · 2025-08-20
+[142.0-driver0.36.0-r0]: /../../tree/142.0-driver0.36.0-r0
 
-[Diff](/../../compare/141.0.3-driver0.36.0-r0...main)
+[Diff](/../../compare/141.0.3-driver0.36.0-r0...142.0-driver0.36.0-r0)
 
 ### Upgraded
 
+- [Firefox] 142.0: <https://www.mozilla.org/firefox/142.0/releasenotes>
 - [Debian Linux] "trixie": <https://www.debian.org/releases/trixie>
 
 

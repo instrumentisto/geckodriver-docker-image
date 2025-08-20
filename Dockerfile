@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/debian
 FROM debian:trixie-slim
 
-ARG firefox_ver=141.0.3
+ARG firefox_ver=142.0
 ARG geckodriver_ver=0.36.0
 ARG build_rev=0
 
