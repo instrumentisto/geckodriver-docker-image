@@ -16,7 +16,7 @@ geckodriver Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`142.0-driver0.36.0-r0-debian-trixie`, `142.0-driver0.36.0-r0-debian`, `142.0-driver0.36.0-r0`, `142.0-driver0.36.0-debian-trixie`, `142.0-driver0.36.0-debian`, `142.0-driver0.36.0`, `142.0-debian-trixie`, `142.0-debian`, `142.0`, `debian-trixie`, `debian`, `latest`][101]
+- [`142.0.1-driver0.36.0-r0-debian-trixie`, `142.0.1-driver0.36.0-r0-debian`, `142.0.1-driver0.36.0-r0`, `142.0.1-driver0.36.0-debian-trixie`, `142.0.1-driver0.36.0-debian`, `142.0.1-driver0.36.0`, `142.0.1-debian-trixie`, `142.0.1-debian`, `142.0.1`, `debian-trixie`, `debian`, `latest`][101]
 
 
 
