@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [146.0.1-driver0.36.0-r0] · 2025-12-19
+[146.0.1-driver0.36.0-r0]: /../../tree/146.0.1-driver0.36.0-r0
+
+[Diff](/../../compare/146.0-driver0.36.0-r0...146.0.1-driver0.36.0-r0)
+
+### Upgraded
+
+- [Firefox] 146.0.1: <https://www.mozilla.org/firefox/146.0.1/releasenotes>
+
+
+
+
 ## [146.0-driver0.36.0-r0] · 2025-12-11
 [146.0-driver0.36.0-r0]: /../../tree/146.0-driver0.36.0-r0
 
