@@ -6,6 +6,17 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/146.0.1-driver0.36.0-r0...main)
+
+### Security updated
+
+- [Debian Linux] "trixie" 20251229 (13.2): <https://github.com/docker-library/official-images/commit/75258b45695c052980fce53c610b7ec5f700db87>
+
+
+
+
 ## [146.0.1-driver0.36.0-r0] · 2025-12-19
 [146.0.1-driver0.36.0-r0]: /../../tree/146.0.1-driver0.36.0-r0
 
