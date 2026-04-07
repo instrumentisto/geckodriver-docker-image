@@ -6,10 +6,21 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/149.0-driver0.36.0-r0...main)
+
+### Security updated
+
+- [Debian Linux] "trixie" 20260406 (13.4): <https://github.com/docker-library/official-images/commit/14bc77db7b07b8b0321490adf7e9e152f940f802>
+
+
+
+
 ## [149.0-driver0.36.0-r0] · 2026-03-26
 [149.0-driver0.36.0-r0]: /../../tree/149.0-driver0.36.0-r0
 
-[Diff](/../../compare/148.0-driver0.36.0-r0...149.0-driver0.36.0-r0)
+[Diff](/../../compare/148.0.2-driver0.36.0-r0...149.0-driver0.36.0-r0)
 
 ### Upgraded
 
@@ -25,7 +36,7 @@ All user visible changes to this project will be documented in this file. This p
 ## [148.0.2-driver0.36.0-r0] · 2026-03-13
 [148.0.2-driver0.36.0-r0]: /../../tree/148.0.2-driver0.36.0-r0
 
-[Diff](/../../compare/147.0.4-driver0.36.0-r0...148.0-driver0.36.0-r0)
+[Diff](/../../compare/148.0-driver0.36.0-r0...148.0.2-driver0.36.0-r0)
 
 ### Upgraded
 
