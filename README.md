@@ -14,6 +14,13 @@ geckodriver Docker image
 
 
 
+## Status
+
+__PROJECT IS CLOSED AND ARCHIVED. NO MAINTAINING WILL BE CONTINUED.__
+
+
+
+
 ## Supported tags and respective `Dockerfile` links
 
 - [`149.0.2-driver0.36.0-r0-debian-trixie`, `149.0.2-driver0.36.0-r0-debian`, `149.0.2-driver0.36.0-r0`, `149.0.2-driver0.36.0-debian-trixie`, `149.0.2-driver0.36.0-debian`, `149.0.2-driver0.36.0`, `149.0.2-debian-trixie`, `149.0.2-debian`, `149.0.2`, `debian-trixie`, `debian`, `latest`][101]
